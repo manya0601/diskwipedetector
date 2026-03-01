@@ -91,6 +91,12 @@ python detector.py test_data/ --all --json
 ```
 
 ---
+Here's your Streamlit GUI! Download app.py and the updated requirements.txt, then run it on Kali:
+Step 1 — Install new dependencies:
+bashpip install streamlit plotly pandas
+Step 2 — Place app.py in your project folder (same folder as analyzer.py, scanner.py, etc.)
+Step 3 — Run it:
+bashstreamlit run app.py
 
 ## Usage
 
